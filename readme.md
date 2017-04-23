@@ -35,3 +35,9 @@ exception. This is then tested for.
 10. The test were updated to hand published and unpublished concerts with a test to see that unpublished concerts
 couldn't have tickets bought for them. The controller method for storing the ticket methods has been updated to
  prioritise exceptions as several exceptions can be thrown in that controller.
+
+## Section 3
+
+1. Outlining the first test case.
+	- At the end of this, the test suite should fail with the following:
+	![](./docs/images/3.1.png)
