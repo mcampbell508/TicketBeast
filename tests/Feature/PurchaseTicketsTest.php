@@ -76,8 +76,6 @@ class PurchaseTicketsTest extends TestCase
         $this->assertResponseStatus(404);
         $this->assertEquals(0, $concert->orders()->count());
         $this->assertEquals(0, $this->paymentGateway->totalCharges());
-
-
     }
 
     public function test_email_is_required_to_purchase_tickets()
